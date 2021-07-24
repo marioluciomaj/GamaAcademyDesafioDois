@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Desafio 2 - Gama Academy</title>
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+
+        <nav id="menu">
+            <ul>
+                <li> <a href="index.html" class="nav-link active">Home</a> </li>
+                <li> <a href="CadastroUsuario.html" class="nav-link">Cadastro de Clientes</a> </li>
+                <li> <a href="CadastroProdutos.html" class="nav-link">Cadastro de Produtos </a> </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- Fim do Cabeçalho -->
+
+    <!-- Conteúdo principal-->
+    <main>
+
+        <div class="card-conteiner">
+           
+            <div class="bloco-post" id="div2">
+                <img class="ilustacao" src="imagens/CadastroProduto.png" width="50%" alt="Cadastro Produtos"
+                    title="Cadastro Produtos" />
+                <label for="campo6">Código</label>
+                <input type="text" name="number" id="campo6" />
+                <br>
+                <label for="campo7">Produto</label>
+                <input type="text" name="produto" id="campo7" />
+                <br>
+                <label for="campo8">Marca</label>
+                <input type="text" name="marca" id="campo8" />
+                <br>
+                <label for="campo9">Quantidade</label>
+                <input type="text" name="quantidade" id="campo9" />
+                <br>
+                <label for="campo10">Observações</label>
+                <input type="text" name="observação" id="campo10" />
+                <br>
+                <button class="button" type="button" onclick="cadastraProduto()">Salvar</button>
+                <br>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+<footer>
+    <div class="rodapé">
+        <fieldset>
+            <p class="text-rodape">Hiring Coders - Gama Academy - 2021</p>
+        </fieldset>
+    </div>
+</footer>
+
+</html>

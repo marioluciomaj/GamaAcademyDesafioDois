@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#menu{
+    background-color: brown;
+}
+#menu ul{
+    max-width: 700px;
+    list-style: none;
+    padding: 0;
+    background-color: brown;
+}
+#menu ul li{
+    display: inline;
+    
+}
+#menu ul li a{
+    
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#menu ul li a:hover{
+    background-color:darkblue ;
+}
+body {  
+     background-color: white;
+    }
+    .cabecalho {
+        
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-conteiner {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .ilustracao {
+        display: flex;
+        margin: 10px;
+        border-radius: 5px;
+        width: 600px 250px;
+    }
+
+    .bloco-post {
+        justify-content: space-between;
+        
+        color: black;
+        margin: 10px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        flex-basis: 50px;
+        flex-grow: 2;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .rodape {
+       
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-rodape {
+        background-color: brown;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        padding-left: 50px;
+    }
+
+            
+            
